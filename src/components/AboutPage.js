@@ -41,7 +41,7 @@ class AboutPage extends Component {
             />
             <RaisedButton
                 secondary={true}
-                href="http://codepen.io/KarafiziArtur/full/gPxMqX"
+                href="https://codepen.io/KarafiziArtur/full/gPxMqX"
                 target="_blank"
                 label="My portfolio"
                 icon={<CodepenIcon viewBox="0 0 130 130" />}

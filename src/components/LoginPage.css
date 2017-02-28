@@ -1,0 +1,28 @@
+.LoginPage {
+  background-color: #00BCD4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: #fff;
+}
+
+.LoginPage__banner {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .LoginPage__banner {
+    flex-direction: column;
+  }
+}
+
+.LoginPage__text {
+  padding: 24px;
+}
+
+.LoginPage__image {
+  max-width: 50%;
+}

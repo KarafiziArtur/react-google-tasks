@@ -1,0 +1,58 @@
+.Task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.Task.editing {
+  display: flex;
+  flex-direction: column;
+}
+
+.Task__text {
+  width: 100%;
+  min-height: 20px;
+}
+
+.Task__due {
+  width: 100%;
+  color: rgba(0,0,0,0.54);
+  font-size: 13px;
+}
+
+.Task__toolbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Task__toolbar > div > * {
+  margin-right: 6px;
+}
+
+.Task__input, .Task__textarea  {
+  font-size: 16px;
+  margin: 8px 16px;
+  padding: 6px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.Task__datepicker {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Task__input:focus, .Task__textarea:focus {
+  outline: 0;
+  border: 1px solid #00BCD4;
+}
+
+.Task__checkbox {
+  max-width: 40px;
+}

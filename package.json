@@ -1,0 +1,30 @@
+{
+  "name": "google_tasks",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "events": "^1.1.1",
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "material-ui": "^0.17.0",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
